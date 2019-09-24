@@ -20,7 +20,7 @@
 
 <input type="email" id="email" name="email" placeholder="Escribe tu email">
 
-<label for="mensaje">mensaje:</label>
+<label for="maribel">maribel:</label>
 <!---->
 <textarea type="mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
 
