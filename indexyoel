@@ -1,35 +1,39 @@
+<HTML>
 
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="">
-<link rel="shorcut icon" type="image/x-icon" class="img" href="../imagenes/favicon.ico">
-<title>Formulario Basico con html y css</title>
-</head>
+<HEAD>
 
-<body>
-<div class="contenedor">
-<fieldset><legend>Formulario</legend>
-<form>
-<!---->
-<label for="nombre">Nombre:</label>
-<!---->
-<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+<TITLE>Su título va aquí</TITLE>
 
-<label for="email">Email:</label>
+</HEAD>
 
-<input type="email" id="email" name="email" placeholder="Escribe tu email">
+<BODY BGCOLOR="FFFFFF">
 
-<label for="maribel">maribel:</label>
-<!---->
-<textarea type="mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+<CENTER><IMG SRC="nubes.jpg" ALIGN="BOTTOM"> </CENTER>
 
-<input type="submit" value="Enviar">
-</form>
-</fieldset>
-</div>
-<footer>
-  <p>derechos reservados/p>
-</footer>
-</body>
-</html>
+<HR>
+
+<a href="http://algunsitiowebestupendo.com">Nombre del vínculo </a>
+
+es un vínculo a otro buen sitio web
+
+<H1>Esto es un encabezado</H1>
+
+<H2>Este es un encabezado mediano</H2>
+
+Envíen el correo a <a href="mailto:soporte@suempresa.com">
+
+soporte@suempresa.com</a>.
+
+<P> ¡Este es un nuevo párrafo!
+
+<P> <B>¡Este es un nuevo párrafo!</B>
+
+<BR> <B><I>Esta es una nueva oración sin salto de párrafo, en cursiva negrita.</I></B>
+
+<HR>
+
+</BODY>
+
+</HTML>
+
+ 
