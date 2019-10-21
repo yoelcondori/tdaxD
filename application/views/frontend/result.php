@@ -25,7 +25,7 @@
 <body>
     <div class="content">
         <div class="header">
-            <h1>Sistema de Gestion Bibliotecario</h1>
+            <h1>Sistema de Biblioteca</h1>
         </div>
         <div class="container content-search">
             <div class="row">

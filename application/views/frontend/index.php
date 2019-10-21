@@ -19,7 +19,7 @@
 <body>
     <div class="content">
         <div class="header">
-            <h1>Sistema de Gestion Bibliotecario</h1>
+            <h1>SISTEMA DE BIBLIOTECA</h1>
         </div>
         <div class="content-link">
              <a href="<?php echo base_url(); ?>frontend/principal/search"><i class="fa fa-book" aria-hidden="true"></i> BUSCAR LIBRO</a>
