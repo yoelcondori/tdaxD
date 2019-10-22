@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/datatables/dataTables.bootstrap.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
 </head>
-<body>
+<body style="background-image:url('https://superfurrylibrarian.files.wordpress.com/2012/04/tumblr_m20dxmnc3g1qewsw4o1_r1_500.gif');">
     <div class="content">
         <div class="header">
-            <h1>Sistema de Biblioteca</h1>
+            <h1>Sistema de Gestion Bibliotecario</h1>
         </div>
         <div class="container content-search">
             <div class="row">

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,20 +29,12 @@
 </nav>
 
 <div class="login-box">
-  <div class="login-logo">
-    <a href="<?php echo base_url(); ?>cpanel"><h3 style="text-shadow: 1px 0px 3px #ffffff
-          ;color: #ffffff">ingrese tus datos para iniciar secion</h3></a>
-    <div>
-          <a href="<?php echo base_url();?>backend/auth/butad"><button type="submit" class="btn btn-primary btn-block btn-flat">Administrador</button></a>
-          <a href="<?php echo base_url();?>frontend/auth/login"><button type="submit" class="btn btn-primary btn-block btn-flat">Usuario</button></a>
-    </div>
-  </div>
   <!-- /.login-logo -->
   <div class="login-box-body" style="background-color: #B7B4BA">
     <div class="card-header p-0">
       <div><h3 class="text-center background-primary">Usuario</h3></div>
                     <div class="bg-login-page text-white text-center py-2" style="background-color: #6F6974">
-                        <h3 style="color: #ffffff"><i class="fa fa-user" style="color: #ffffff"></i> Login</h3>
+                        <h2 style="color: #ffffff"><i class="fa fa-user" style="color: #ffffff"></i> registrando usuario</h2>
                     </div>
                 </div>
 
@@ -51,7 +45,7 @@
     <?php echo validation_errors('<div class="alert alert-danger">', '</div>'); ?>
 
 
-    <form action="<?php echo base_url() ?>frontend/auth/login" method="POST">
+    <form action="" method="POST">
 
       <div class="form-group">
       <label for="username">nombre :</label>
@@ -59,21 +53,34 @@
       </div>
 
       <div class="form-group">
+      <label for="apellido">apellidos :</label>
+      <input type="text" class="form-control" placeholder="apellido" name="apellido" id="apellido">
+      </div>
+
+      <div class="form-group">
+      <label for="email">email :</label>
+      <input type="text" class="form-control" placeholder="Email" name="email" id="email">
+      </div>
+
+      <div class="form-group">
       <label for="password">contraseña :</label>
       <input type="password" class="form-control" placeholder="password" name="password" id="password">
       </div>
 
+      <div class="form-group">
+      <label for="phone">telefono :</label>
+      <input type="phone" class="form-control" placeholder="phone" name="phone" id="phone">
+      </div>
+
       <div>
-        <a  >
-        <button class="btn btn-primary btn-block btn-flat" name="login">acceder</button></a>
+        <button class="btn btn-success btn-block btn-flat" name="register">Registrarse</button>
       </div>
 
     </form>
-      <div>
-        <a href="<?php echo base_url();?>frontend/auth/register"><button type="submit" class="btn btn-success btn-block btn-flat">Registrarse</button></a>
-      </div>
+
   </div>
   <!-- /.login-box-body -->
+</div>
 </div>
 <!-- /.login-box -->
 
