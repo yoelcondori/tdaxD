@@ -25,7 +25,7 @@
 <body style="background-image:url('https://superfurrylibrarian.files.wordpress.com/2012/04/tumblr_m20dxmnc3g1qewsw4o1_r1_500.gif');">
     <div class="content">
         <div class="header">
-            <h1>Sistema de Gestion Bibliotecario</h1>
+            <h1>SISTEMA DE BIBLIOTECA</h1>
         </div>
         <div class="container content-search">
             <div class="row">
